@@ -146,7 +146,31 @@
       ],
       "lsp": "aggregate/lsp/3e14ab4438cff64e16d7ae14ceb79ed59643a280.nq.gz",
       "repolex": "aggregate/repolex/3e14ab4438cff64e16d7ae14ceb79ed59643a280.nq.gz",
-      "tag": "1.3.0"
+      "tag": "1.3.0",
+      "dep": "dep/3e14ab4438cff64e16d7ae14ceb79ed59643a280.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "junit:junit",
+          "packageVersion": "4.9",
+          "githubOrg": "KentBeck",
+          "githubRepo": "junit",
+          "githubCommit": "HEAD"
+        },
+        {
+          "packageName": "org.bouncycastle:bcprov-jdk15on",
+          "packageVersion": "1.70",
+          "githubOrg": "bcgit",
+          "githubRepo": "bc-java",
+          "githubCommit": "HEAD"
+        },
+        {
+          "packageName": "com.google.code.gson:gson",
+          "packageVersion": "2.9.1",
+          "githubOrg": "google",
+          "githubRepo": "gson",
+          "githubCommit": "HEAD"
+        }
+      ]
     }
   ],
   "commit": "commit/commit.nq.gz",
