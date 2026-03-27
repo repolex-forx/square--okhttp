@@ -182,6 +182,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 3e14ab4438cff64e16d7ae14ceb79ed59643a280.nq.gz
 ├── filetree
 │   └── 3e14ab4438cff64e16d7ae14ceb79ed59643a280.nq.gz
 ├── issue
@@ -191,7 +193,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 142 files
+14 directories, 143 files
 ```
 
 | Directory | What it contains |
@@ -211,4 +213,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [square/okhttp](https://github.com/square/okhttp)
 
 ---
-*Parsed on 2026-03-21 by [repolex](https://repolex.ai)*
+*Parsed on 2026-03-27 by [repolex](https://repolex.ai)*
